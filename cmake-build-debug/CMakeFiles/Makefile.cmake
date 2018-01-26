@@ -55,6 +55,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Multimedia/Qt5Multimedia_DSServicePlugin.cmake"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWindowsAudioPlugin.cmake"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake"
@@ -73,6 +81,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.9.6/CMakeRCCompiler.cmake"
   "CMakeFiles/3.9.6/CMakeSystem.cmake"
   "../include/decode/CMakeLists.txt"
+  "../include/playmodule/CMakeLists.txt"
   "../src/CMakeLists.txt"
   )
 
@@ -86,12 +95,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/decode/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/playmodule/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../bin/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "include/decode/CMakeFiles/decode.dir/DependInfo.cmake"
+  "include/playmodule/CMakeFiles/player.dir/DependInfo.cmake"
+  "include/playmodule/CMakeFiles/player_autogen.dir/DependInfo.cmake"
   "../bin/CMakeFiles/project_learning.dir/DependInfo.cmake"
   "../bin/CMakeFiles/project_learning_autogen.dir/DependInfo.cmake"
   )

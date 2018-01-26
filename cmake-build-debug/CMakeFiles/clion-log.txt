@@ -1,6 +1,9 @@
-"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\project_learning
--- GUJUN IS COMINGE:/project_learning/bin
--- gujun is commingE:/project_learning
+"C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" I:\MyPlayer
+-- GUJUN IS COMINGI:/MyPlayer/bin
+-- playmodule path == I:/MyPlayer/bin
+-- TEST QT_HOME ==== C:/Qt/Qt5.8.0/5.8/mingw53_32/
+-- gujun is testI:/MyPlayer
+-- Today is commingI:/MyPlayer/bin/ui_widget.h
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/project_learning/cmake-build-debug
+-- Build files have been written to: I:/MyPlayer/cmake-build-debug

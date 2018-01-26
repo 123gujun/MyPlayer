@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\project_learning
+CMAKE_SOURCE_DIR = I:\MyPlayer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\project_learning\cmake-build-debug
+CMAKE_BINARY_DIR = I:\MyPlayer\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\project_learning\cmake-build-debug\CMakeFiles E:\project_learning\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\MyPlayer\cmake-build-debug\CMakeFiles I:\MyPlayer\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\project_learning\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\MyPlayer\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,32 @@ decode/fast:
 .PHONY : decode/fast
 
 #=============================================================================
+# Target rules for targets named player
+
+# Build rule for target.
+player: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 player
+.PHONY : player
+
+# fast build rule for target.
+player/fast:
+	$(MAKE) -f include\playmodule\CMakeFiles\player.dir\build.make include/playmodule/CMakeFiles/player.dir/build
+.PHONY : player/fast
+
+#=============================================================================
+# Target rules for targets named player_autogen
+
+# Build rule for target.
+player_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 player_autogen
+.PHONY : player_autogen
+
+# fast build rule for target.
+player_autogen/fast:
+	$(MAKE) -f include\playmodule\CMakeFiles\player_autogen.dir\build.make include/playmodule/CMakeFiles/player_autogen.dir/build
+.PHONY : player_autogen/fast
+
+#=============================================================================
 # Target rules for targets named project_learning
 
 # Build rule for target.
@@ -157,6 +183,8 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... decode
+	@echo ... player
+	@echo ... player_autogen
 	@echo ... project_learning
 	@echo ... project_learning_autogen
 .PHONY : help

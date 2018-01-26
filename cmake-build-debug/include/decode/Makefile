@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\project_learning
+CMAKE_SOURCE_DIR = I:\MyPlayer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\project_learning\cmake-build-debug
+CMAKE_BINARY_DIR = I:\MyPlayer\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\project_learning\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\project_learning\cmake-build-debug\CMakeFiles E:\project_learning\cmake-build-debug\include\decode\CMakeFiles\progress.marks
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\project_learning\cmake-build-debug\CMakeFiles 0
+	cd /d I:\MyPlayer\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start I:\MyPlayer\cmake-build-debug\CMakeFiles I:\MyPlayer\cmake-build-debug\include\decode\CMakeFiles\progress.marks
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\MyPlayer\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/clean
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/preinstall
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/preinstall
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\project_learning\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d I:\MyPlayer\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 include/decode/CMakeFiles/decode.dir/rule:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/CMakeFiles/decode.dir/rule
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 include/decode/CMakeFiles/decode.dir/rule
 .PHONY : include/decode/CMakeFiles/decode.dir/rule
 
 # Convenience name for target.
@@ -121,7 +121,7 @@ decode: include/decode/CMakeFiles/decode.dir/rule
 
 # fast build rule for target.
 decode/fast:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f include\decode\CMakeFiles\decode.dir\build.make include/decode/CMakeFiles/decode.dir/build
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f include\decode\CMakeFiles\decode.dir\build.make include/decode/CMakeFiles/decode.dir/build
 .PHONY : decode/fast
 
 src/decode.obj: src/decode.cpp.obj
@@ -130,7 +130,7 @@ src/decode.obj: src/decode.cpp.obj
 
 # target to build an object file
 src/decode.cpp.obj:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f include\decode\CMakeFiles\decode.dir\build.make include/decode/CMakeFiles/decode.dir/src/decode.cpp.obj
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f include\decode\CMakeFiles\decode.dir\build.make include/decode/CMakeFiles/decode.dir/src/decode.cpp.obj
 .PHONY : src/decode.cpp.obj
 
 src/decode.i: src/decode.cpp.i
@@ -139,7 +139,7 @@ src/decode.i: src/decode.cpp.i
 
 # target to preprocess a source file
 src/decode.cpp.i:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f include\decode\CMakeFiles\decode.dir\build.make include/decode/CMakeFiles/decode.dir/src/decode.cpp.i
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f include\decode\CMakeFiles\decode.dir\build.make include/decode/CMakeFiles/decode.dir/src/decode.cpp.i
 .PHONY : src/decode.cpp.i
 
 src/decode.s: src/decode.cpp.s
@@ -148,7 +148,7 @@ src/decode.s: src/decode.cpp.s
 
 # target to generate assembly for a file
 src/decode.cpp.s:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f include\decode\CMakeFiles\decode.dir\build.make include/decode/CMakeFiles/decode.dir/src/decode.cpp.s
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f include\decode\CMakeFiles\decode.dir\build.make include/decode/CMakeFiles/decode.dir/src/decode.cpp.s
 .PHONY : src/decode.cpp.s
 
 # Help Target
@@ -174,6 +174,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\project_learning\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d I:\MyPlayer\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

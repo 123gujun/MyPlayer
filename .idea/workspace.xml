@@ -2,9 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Project" targetName="project_learning_autogen" />
       <config projectName="Project" targetName="decode" />
+      <config projectName="Project" targetName="project_learning_autogen" />
       <config projectName="Project" targetName="project_learning" />
+      <config projectName="Project" targetName="player" />
+      <config projectName="Project" targetName="player_autogen" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,7 +15,93 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a4f6a8b-0f72-443e-a553-f760a17dfd36" name="Default" comment="" />
+    <list default="true" id="3a4f6a8b-0f72-443e-a553-f760a17dfd36" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/bin/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/bin/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/CXX.includecache" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/build.make" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/depend.internal" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/depend.make" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/flags.make" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/includes_CXX.rsp" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/includes_CXX.rsp" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/link.txt" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/linklibs.rsp" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/linklibs.rsp" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/objects.a" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/objects.a" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/progress.make" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning_autogen.dir/AutogenInfo.cmake" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning_autogen.dir/AutogenInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning_autogen.dir/build.make" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning_autogen.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning_autogen.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning_autogen.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/bin/CMakeFiles/project_learning_autogen.dir/progress.make" afterPath="$PROJECT_DIR$/bin/CMakeFiles/project_learning_autogen.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/bin/Makefile" afterPath="$PROJECT_DIR$/bin/Makefile" />
+      <change beforePath="$PROJECT_DIR$/bin/cmake_install.cmake" afterPath="$PROJECT_DIR$/bin/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/bin/project_learning.cbp" afterPath="$PROJECT_DIR$/bin/project_learning.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.exe" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/CXX.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/includes_CXX.rsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/linklibs.rsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/objects.a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/objects1.rsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.obj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/project_learning_autogen/untitled.ui" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/src/TestWidget.cpp.obj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning.dir/src/main.cpp.obj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning_autogen.dir/AutogenInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning_autogen.dir/AutogenOldSettings.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning_autogen.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning_autogen.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning_autogen.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning_autogen.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning_autogen.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/project_learning_autogen.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/includes_CXX.rsp" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/includes_CXX.rsp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/CMakeFiles/decode.dir/objects.a" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/include/decode/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/include/decode/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/include/decode/CMakeLists.txt" afterPath="$PROJECT_DIR$/include/decode/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/mywidget.ui" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/ui_widget.h" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,61 +117,49 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/decode/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="702">
+              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="243">
+              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CPlayWidget.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/playmodule/include/CPlayWidget.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding>
-                <element signature="e#1#25#0" expanded="true" />
+                <element signature="e#173#216#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CTestWidget.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CTestWidget.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/playmodule/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#122#140#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestWidget.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestWidget.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="621">
+              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -99,11 +175,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decode.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/decode/src/decode.cpp">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/decode/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CPlayWidget.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/playmodule/src/CPlayWidget.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CTestWidget.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CTestWidget.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -112,18 +208,8 @@
       <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4617">
-              <caret line="171" column="6" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qdebug.h" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3996">
-              <caret line="148" column="27" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="27" />
+            <state relative-caret-position="5373">
+              <caret line="199" column="6" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -142,6 +228,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,9 +242,12 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/src/CTestWidget.h" />
         <option value="$PROJECT_DIR$/src/TestWidget.cpp" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/decode/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/playmodule/include/CPlayWidget.h" />
+        <option value="$PROJECT_DIR$/include/playmodule/src/CPlayWidget.cpp" />
+        <option value="$PROJECT_DIR$/include/playmodule/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
       </list>
     </option>
@@ -164,13 +258,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="55" />
     <option name="y" value="34" />
     <option name="width" value="580" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -190,17 +287,44 @@
         <subPane>
           <expand>
             <path>
-              <item name="project_learning" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="project_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="MyPlayer" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="MyPlayer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project_learning" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="project_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="MyPlayer" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="MyPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPlayer" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="MyPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="decode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPlayer" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="MyPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="playmodule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPlayer" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="MyPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="playmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPlayer" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="MyPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="playmodule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project_learning" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="MyPlayer" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="MyPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,9 +335,10 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="ObjectiveC" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,7 +356,13 @@
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="project_learning" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="decode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="decode" CONFIG_NAME="Debug">
+    <configuration name="decode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="decode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="project_learning">
+      <envs />
+    </configuration>
+    <configuration name="player" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="player" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="project_learning">
+      <envs />
+    </configuration>
+    <configuration name="player_autogen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="player_autogen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="project_learning">
       <envs />
     </configuration>
     <configuration name="project_learning" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="project_learning" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="project_learning">
@@ -240,11 +371,13 @@
     <configuration name="project_learning_autogen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="project_learning_autogen" CONFIG_NAME="Debug">
       <envs />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.decode" />
-      <item index="2" class="java.lang.String" itemvalue="Application.project_learning" />
-      <item index="3" class="java.lang.String" itemvalue="Application.project_learning_autogen" />
+      <item index="2" class="java.lang.String" itemvalue="Application.player" />
+      <item index="3" class="java.lang.String" itemvalue="Application.player_autogen" />
+      <item index="4" class="java.lang.String" itemvalue="Application.project_learning" />
+      <item index="5" class="java.lang.String" itemvalue="Application.project_learning_autogen" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -275,27 +408,33 @@
       <workItem from="1516931420219" duration="2683000" />
       <workItem from="1516934151482" duration="164000" />
       <workItem from="1516934444555" duration="354000" />
+      <workItem from="1516937808270" duration="2110000" />
+      <workItem from="1516940816674" duration="5311000" />
+      <workItem from="1516946809637" duration="9420000" />
+      <workItem from="1516974780634" duration="2855000" />
+      <workItem from="1516979238899" duration="222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26559000" />
+    <option name="totallyTimeSpent" value="46477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18960468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27687296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5355249" sideWeight="0.5014641" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27677625" sideWeight="0.70058566" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30130294" sideWeight="0.49853587" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16449511" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25556734" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39964157" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30130294" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -313,6 +452,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="E:\project_learning\123gujun" />
+      <path value="E:\project_learning\MyPlayer" />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
@@ -325,22 +465,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/project_learning.cbp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3996">
-          <caret line="148" column="27" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CTestWidget.h" />
     <entry file="file://$PROJECT_DIR$/mywidget.h" />
     <entry file="file://$PROJECT_DIR$/TestWidget.cpp" />
@@ -376,14 +500,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3996">
-          <caret line="148" column="27" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h" />
     <entry file="file://$PROJECT_DIR$/CTestWidget.h" />
     <entry file="file://$PROJECT_DIR$/mywidget.h" />
     <entry file="file://$PROJECT_DIR$/TestWidget.cpp" />
@@ -411,14 +528,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3996">
-          <caret line="148" column="27" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h" />
     <entry file="file://$PROJECT_DIR$/CTestWidget.h" />
     <entry file="file://$PROJECT_DIR$/mywidget.h" />
     <entry file="file://$PROJECT_DIR$/TestWidget.cpp" />
@@ -445,38 +555,13 @@
     <entry file="file://$PROJECT_DIR$/main.cpp" />
     <entry file="file://$PROJECT_DIR$/CTestWidget.h" />
     <entry file="file://$PROJECT_DIR$/TestWidget.cpp" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
     <entry file="file://$PROJECT_DIR$/CTestWidget.h" />
-    <entry file="file://D:/chromeDownload/Fish-v320/kpdf/CMake中文手册.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/chromeDownload/Fish-v320/kpdf/CMake中文手册.cpp" />
     <entry file="file://$PROJECT_DIR$/mywidget.h" />
     <entry file="file://$PROJECT_DIR$/TestWidget.cpp" />
-    <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3996">
-          <caret line="148" column="27" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/QDebug" />
+    <entry file="file://C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore/qdebug.h" />
     <entry file="file://$PROJECT_DIR$/main.cpp" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/project_learning.cbp">
       <provider selected="true" editor-type-id="text-editor">
@@ -489,6 +574,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mywidget.h" />
+    <entry file="file://$PROJECT_DIR$/src/TestWidget.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5373">
+          <caret line="199" column="6" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CTestWidget.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -501,47 +609,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mywidget.h" />
-    <entry file="file://$PROJECT_DIR$/src/CTestWidget.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestWidget.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4617">
-          <caret line="171" column="6" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="e#1#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/decode/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="324">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/playmodule/include/CPlayWidget.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding>
+            <element signature="e#173#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/playmodule/src/CPlayWidget.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/playmodule/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -549,15 +646,23 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="35" />
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="702">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="38" />
           <folding />
         </state>
       </provider>

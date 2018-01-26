@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/project_learning/src/TestWidget.cpp" "E:/project_learning/bin/CMakeFiles/project_learning.dir/TestWidget.cpp.obj"
-  "E:/project_learning/src/main.cpp" "E:/project_learning/bin/CMakeFiles/project_learning.dir/main.cpp.obj"
-  "E:/project_learning/bin/project_learning_autogen/mocs_compilation.cpp" "E:/project_learning/bin/CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.obj"
+  "I:/MyPlayer/src/TestWidget.cpp" "I:/MyPlayer/bin/CMakeFiles/project_learning.dir/TestWidget.cpp.obj"
+  "I:/MyPlayer/src/main.cpp" "I:/MyPlayer/bin/CMakeFiles/project_learning.dir/main.cpp.obj"
+  "I:/MyPlayer/bin/project_learning_autogen/mocs_compilation.cpp" "I:/MyPlayer/bin/CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,6 +14,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_MULTIMEDIAWIDGETS_LIB"
+  "QT_MULTIMEDIA_LIB"
   "QT_NETWORK_LIB"
   "QT_UITOOLS_LIB"
   "QT_WIDGETS_LIB"
@@ -26,6 +28,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src"
   "../bin/project_learning_autogen/include"
   "../include/decode/include"
+  "../include/playmodule/include"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/include"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/./mkspecs/win32-g++"
@@ -35,11 +38,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtUiTools"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtXml"
   "C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtNetwork"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtMultimedia"
+  "C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtMultimediaWidgets"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "E:/project_learning/cmake-build-debug/include/decode/CMakeFiles/decode.dir/DependInfo.cmake"
+  "I:/MyPlayer/cmake-build-debug/include/decode/CMakeFiles/decode.dir/DependInfo.cmake"
+  "I:/MyPlayer/cmake-build-debug/include/playmodule/CMakeFiles/player.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

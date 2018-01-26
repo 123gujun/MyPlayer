@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "project_learning_autogen"
   "CMakeFiles/project_learning_autogen.dir/AutogenOldSettings.cmake"
+  "ui_widget.h"
   "CMakeFiles/project_learning.dir/TestWidget.cpp.obj"
   "CMakeFiles/project_learning.dir/main.cpp.obj"
   "CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.obj"

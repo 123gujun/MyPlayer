@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "project_learning_autogen"
   "CMakeFiles/project_learning_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/project_learning_autogen"
+  "ui_widget.h"
 )
 
 # Per-language clean rules from dependency scanning.

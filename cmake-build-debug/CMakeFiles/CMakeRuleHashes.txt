@@ -1,2 +1,4 @@
 # Hashes of file build rules.
-9f69f860874c45046abc898f183ad063 ../bin/CMakeFiles/project_learning_autogen
+757f4d570b662c45e0f27ae6f743789a ../bin/CMakeFiles/project_learning_autogen
+5503be7a47600443bdecdd888e16b688 ../bin/ui_widget.h
+3813a08f52dc99bd76c6f748664c19b1 include/playmodule/CMakeFiles/player_autogen

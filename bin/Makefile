@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\project_learning
+CMAKE_SOURCE_DIR = I:\MyPlayer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\project_learning\cmake-build-debug
+CMAKE_BINARY_DIR = I:\MyPlayer\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\project_learning\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\project_learning\cmake-build-debug\CMakeFiles E:\project_learning\bin\CMakeFiles\progress.marks
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\project_learning\cmake-build-debug\CMakeFiles 0
+	cd /d I:\MyPlayer\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start I:\MyPlayer\cmake-build-debug\CMakeFiles I:\MyPlayer\bin\CMakeFiles\progress.marks
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\MyPlayer\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/clean
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/preinstall
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/preinstall
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\project_learning\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d I:\MyPlayer\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ../bin/CMakeFiles/project_learning.dir/rule:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/CMakeFiles/project_learning.dir/rule
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/CMakeFiles/project_learning.dir/rule
 .PHONY : ../bin/CMakeFiles/project_learning.dir/rule
 
 # Convenience name for target.
@@ -121,12 +121,12 @@ project_learning: ../bin/CMakeFiles/project_learning.dir/rule
 
 # fast build rule for target.
 project_learning/fast:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/build
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/build
 .PHONY : project_learning/fast
 
 # Convenience name for target.
 ../bin/CMakeFiles/project_learning_autogen.dir/rule:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/CMakeFiles/project_learning_autogen.dir/rule
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 ../bin/CMakeFiles/project_learning_autogen.dir/rule
 .PHONY : ../bin/CMakeFiles/project_learning_autogen.dir/rule
 
 # Convenience name for target.
@@ -136,7 +136,7 @@ project_learning_autogen: ../bin/CMakeFiles/project_learning_autogen.dir/rule
 
 # fast build rule for target.
 project_learning_autogen/fast:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning_autogen.dir\build.make ../bin/CMakeFiles/project_learning_autogen.dir/build
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning_autogen.dir\build.make ../bin/CMakeFiles/project_learning_autogen.dir/build
 .PHONY : project_learning_autogen/fast
 
 TestWidget.obj: TestWidget.cpp.obj
@@ -145,7 +145,7 @@ TestWidget.obj: TestWidget.cpp.obj
 
 # target to build an object file
 TestWidget.cpp.obj:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/TestWidget.cpp.obj
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/TestWidget.cpp.obj
 .PHONY : TestWidget.cpp.obj
 
 TestWidget.i: TestWidget.cpp.i
@@ -154,7 +154,7 @@ TestWidget.i: TestWidget.cpp.i
 
 # target to preprocess a source file
 TestWidget.cpp.i:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/TestWidget.cpp.i
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/TestWidget.cpp.i
 .PHONY : TestWidget.cpp.i
 
 TestWidget.s: TestWidget.cpp.s
@@ -163,7 +163,7 @@ TestWidget.s: TestWidget.cpp.s
 
 # target to generate assembly for a file
 TestWidget.cpp.s:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/TestWidget.cpp.s
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/TestWidget.cpp.s
 .PHONY : TestWidget.cpp.s
 
 main.obj: main.cpp.obj
@@ -172,7 +172,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/main.cpp.obj
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -181,7 +181,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/main.cpp.i
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -190,7 +190,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/main.cpp.s
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 project_learning_autogen/mocs_compilation.obj: project_learning_autogen/mocs_compilation.cpp.obj
@@ -199,7 +199,7 @@ project_learning_autogen/mocs_compilation.obj: project_learning_autogen/mocs_com
 
 # target to build an object file
 project_learning_autogen/mocs_compilation.cpp.obj:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.obj
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.obj
 .PHONY : project_learning_autogen/mocs_compilation.cpp.obj
 
 project_learning_autogen/mocs_compilation.i: project_learning_autogen/mocs_compilation.cpp.i
@@ -208,7 +208,7 @@ project_learning_autogen/mocs_compilation.i: project_learning_autogen/mocs_compi
 
 # target to preprocess a source file
 project_learning_autogen/mocs_compilation.cpp.i:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.i
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.i
 .PHONY : project_learning_autogen/mocs_compilation.cpp.i
 
 project_learning_autogen/mocs_compilation.s: project_learning_autogen/mocs_compilation.cpp.s
@@ -217,7 +217,7 @@ project_learning_autogen/mocs_compilation.s: project_learning_autogen/mocs_compi
 
 # target to generate assembly for a file
 project_learning_autogen/mocs_compilation.cpp.s:
-	cd /d E:\project_learning\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.s
+	cd /d I:\MyPlayer\cmake-build-debug && $(MAKE) -f ..\bin\CMakeFiles\project_learning.dir\build.make ../bin/CMakeFiles/project_learning.dir/project_learning_autogen/mocs_compilation.cpp.s
 .PHONY : project_learning_autogen/mocs_compilation.cpp.s
 
 # Help Target
@@ -250,6 +250,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\project_learning\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d I:\MyPlayer\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

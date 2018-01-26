@@ -1,0 +1,33 @@
+# Directories and files
+set(AM_CMAKE_BINARY_DIR "I:/MyPlayer/cmake-build-debug/")
+set(AM_CMAKE_SOURCE_DIR "I:/MyPlayer/")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "I:/MyPlayer/include/playmodule/")
+set(AM_CMAKE_CURRENT_BINARY_DIR "I:/MyPlayer/cmake-build-debug/include/playmodule/")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "I:/MyPlayer/cmake-build-debug/include/playmodule/player_autogen")
+set(AM_SOURCES "I:/MyPlayer/include/playmodule/src/CPlayWidget.cpp")
+set(AM_HEADERS "")
+# Qt environment
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "C:/Qt/Qt5.8.0/5.8/mingw53_32/bin/moc.exe")
+set(AM_QT_UIC_EXECUTABLE "C:/Qt/Qt5.8.0/5.8/mingw53_32/bin/uic.exe")
+set(AM_QT_RCC_EXECUTABLE )
+# MOC settings
+set(AM_MOC_SKIP "")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "I:/MyPlayer/cmake-build-debug/include/playmodule;I:/MyPlayer/include/playmodule;I:/MyPlayer/cmake-build-debug/include/playmodule/player_autogen/include;I:/MyPlayer/include/playmodule/./include;C:/Qt/Qt5.8.0/5.8/mingw53_32/include;C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtMultimedia;C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtNetwork;C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtCore;C:/Qt/Qt5.8.0/5.8/mingw53_32/./mkspecs/win32-g++;C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtGui;C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtANGLE;C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtMultimediaWidgets;C:/Qt/Qt5.8.0/5.8/mingw53_32/include/QtWidgets")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "FALSE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "")
+# UIC settings
+set(AM_UIC_SKIP "")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")
+# RCC settings
+set(AM_RCC_SOURCES  )
+set(AM_RCC_INPUTS )
+set(AM_RCC_OPTIONS_FILES )
+set(AM_RCC_OPTIONS_OPTIONS )

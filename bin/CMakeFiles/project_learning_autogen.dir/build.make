@@ -42,21 +42,26 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\project_learning
+CMAKE_SOURCE_DIR = I:\MyPlayer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\project_learning\cmake-build-debug
+CMAKE_BINARY_DIR = I:\MyPlayer\cmake-build-debug
 
 # Utility rule file for project_learning_autogen.
 
 # Include the progress variables for this target.
 include ../bin/CMakeFiles/project_learning_autogen.dir/progress.make
 
-../bin/CMakeFiles/project_learning_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=E:\project_learning\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target project_learning"
-	cd /d E:\project_learning\bin && "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_autogen E:/project_learning/bin/CMakeFiles/project_learning_autogen.dir Debug
+../bin/CMakeFiles/project_learning_autogen: ../bin/ui_widget.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=I:\MyPlayer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target project_learning"
+	cd /d I:\MyPlayer\bin && "C:\Program Files\JetBrains\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_autogen I:/MyPlayer/bin/CMakeFiles/project_learning_autogen.dir Debug
+
+../bin/ui_widget.h: ../src/widget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=I:\MyPlayer\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_widget.h"
+	cd /d I:\MyPlayer\bin && C:\Qt\Qt5.8.0\5.8\mingw53_32\bin\uic.exe -o I:/MyPlayer/bin/ui_widget.h I:/MyPlayer/src/widget.ui
 
 project_learning_autogen: ../bin/CMakeFiles/project_learning_autogen
+project_learning_autogen: ../bin/ui_widget.h
 project_learning_autogen: ../bin/CMakeFiles/project_learning_autogen.dir/build.make
 
 .PHONY : project_learning_autogen
@@ -67,10 +72,10 @@ project_learning_autogen: ../bin/CMakeFiles/project_learning_autogen.dir/build.m
 .PHONY : ../bin/CMakeFiles/project_learning_autogen.dir/build
 
 ../bin/CMakeFiles/project_learning_autogen.dir/clean:
-	cd /d E:\project_learning\bin && $(CMAKE_COMMAND) -P CMakeFiles\project_learning_autogen.dir\cmake_clean.cmake
+	cd /d I:\MyPlayer\bin && $(CMAKE_COMMAND) -P CMakeFiles\project_learning_autogen.dir\cmake_clean.cmake
 .PHONY : ../bin/CMakeFiles/project_learning_autogen.dir/clean
 
 ../bin/CMakeFiles/project_learning_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\project_learning E:\project_learning\src E:\project_learning\cmake-build-debug E:\project_learning\bin E:\project_learning\bin\CMakeFiles\project_learning_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" I:\MyPlayer I:\MyPlayer\src I:\MyPlayer\cmake-build-debug I:\MyPlayer\bin I:\MyPlayer\bin\CMakeFiles\project_learning_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : ../bin/CMakeFiles/project_learning_autogen.dir/depend
 
