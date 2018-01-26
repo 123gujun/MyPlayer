@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/decode/./include/decode.h
+
+E:/project_learning/include/decode/src/decode.cpp
+decode.h
+E:/project_learning/include/decode/src/decode.h
+iostream
+-
+
