@@ -1,8 +1,0 @@
--II:/MyPlayer/include/playmodule/./include
--IC:/Qt/Qt5.8.0/5.8/mingw53_32/include
--II:/MyPlayer/include/playmodule
--II:/MyPlayer/cmake-build-debug/include/playmodule
--DWIN32
--o
-I:/MyPlayer/cmake-build-debug/include/playmodule/moc_CPlayWidget.cpp
-I:/MyPlayer/include/playmodule/CPlayWidget.h
